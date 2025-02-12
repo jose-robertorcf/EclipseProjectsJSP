@@ -1,0 +1,23 @@
+package br.com.interfaceseclassesabstratas.classes;
+
+public class PessoaFisica extends Pessoa implements InterfacePessoa {
+
+	@Override
+	public void imprimirDaPessoaAbstract() {
+		System.out.println("Do método de herança de pessoa na classe PessoaFisica!");
+		
+	}
+
+	@Override
+	public void imprimirDaInterface() {
+		System.out.println("Do método da interface");
+		
+	}
+
+	@Override
+	public void imprimirDaInterface2() {
+		System.out.println("Do método da interface 2");
+		
+	}
+
+}

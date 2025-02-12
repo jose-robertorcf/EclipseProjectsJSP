@@ -1,0 +1,17 @@
+package br.com.bloco1.principal;
+
+import br.com.bloco1.extras.Extra1;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Extra1 e = new Extra1();
+		
+		e.quantidade = 10;
+		
+		e.imprimir();
+
+	}
+
+}

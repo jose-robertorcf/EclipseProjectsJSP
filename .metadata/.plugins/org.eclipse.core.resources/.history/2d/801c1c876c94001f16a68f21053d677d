@@ -1,0 +1,17 @@
+package br.com.interfaceseclassesabstratas.principal;
+
+import br.com.interfaceseclassesabstratas.classes.PessoaFisica;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		PessoaFisica pf = new PessoaFisica();
+		
+		pf.imprimirDaPessoa();
+		pf.imprimirDaPessoaAbstract();
+		pf.imprimirDaInterface();
+		pf.imprimirDaInterface2();
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package br.com.interfaceseclassesabstratas.principal;
+
+import br.com.interfaceseclassesabstratas.classes.PessoaFisica;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		PessoaFisica pf = new PessoaFisica();
+		
+		pf.imprimirDaPessoa();
+		pf.imprimirDaPessoaAbstract();
+		pf.imprimirDaInterface();
+		pf.imprimirDaInterface2();
+		
+		pf.setNome("João");
+		pf.setCpf("000.000.000-00");
+
+		System.out.println(pf.getNome());
+		
+		
+		PessoaFisica pf2 = new PessoaFisica("Maria", "111.111.111-11");
+		System.out.println(pf2.getNome() + " " + pf2.getCpf());
+		
+		
+	}
+
+}

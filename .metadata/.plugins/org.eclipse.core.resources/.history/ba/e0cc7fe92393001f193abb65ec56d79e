@@ -1,0 +1,16 @@
+package br.com.tema2.principal;
+
+import br.com.tema2.animais.Cachorro;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Cachorro c = new Cachorro();
+		
+		c.setCor("Amarelo");
+		System.out.println("A cor do meuu cachorro é: " + c.getCor());
+		
+
+	}
+
+}

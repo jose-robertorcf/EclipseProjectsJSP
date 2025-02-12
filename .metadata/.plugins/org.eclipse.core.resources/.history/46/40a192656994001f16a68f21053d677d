@@ -1,0 +1,13 @@
+package br.com.bloco1.extras;
+
+public class Extra2 {
+
+	
+	
+	public void chamavalores() {
+		Extra1 e = new Extra1();
+		e.quantidade = 10;
+		e.imprimir();
+	}
+	
+}

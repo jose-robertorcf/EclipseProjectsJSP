@@ -1,0 +1,33 @@
+package br.com.tema2.principal;
+
+import br.com.tema2.animais.Cachorro;
+import br.com.tema2.animais.Gato;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Cachorro c = new Cachorro();
+		Gato g = new Gato();
+		
+		c.setCor("Amarelo");
+		
+		c.setSexo('F');
+		
+		System.out.println("A cor do meuu cachorro é: " + c.getCor());
+		
+		System.out.println("O sexo do meu cachorro é: " + c.getSexo());
+		
+		
+		c.brincar();
+		c.andar();
+		
+		g.andar();
+		
+		g.ronronar();
+		
+				
+		
+
+	}
+
+}

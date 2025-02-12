@@ -1,0 +1,56 @@
+package br.com.interfaceseclassesabstratas.classes;
+
+public class PessoaFisica extends Pessoa implements InterfacePessoa {
+	
+	private String nome;
+	private String cpf;
+	
+	public PessoaFisica() {
+		
+	}
+	
+	//sobrecarga do método construtor
+	public PessoaFisica(String nome, String cpf) {
+		this.nome = nome;
+		this.cpf = cpf;
+	}
+	
+	
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+
+
+	@Override
+	public void imprimirDaPessoaAbstract() {
+		System.out.println("Do método de herança de pessoa na classe PessoaFisica!");
+		
+	}
+
+	@Override
+	public void imprimirDaInterface() {
+		System.out.println("Do método da interface");
+		
+	}
+
+	@Override
+	public void imprimirDaInterface2() {
+		System.out.println("Do método da interface 2");
+		
+	}
+
+}

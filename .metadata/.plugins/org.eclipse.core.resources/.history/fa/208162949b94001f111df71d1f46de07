@@ -1,0 +1,20 @@
+package br.com.threadsswing;
+
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class Multiplicacao {
+	
+	private JTextField primeiro;
+	private JTextField segundo;
+	private JLabel resultado;
+	
+	public Multiplicacao(JTextField primeiro, JTextField segundo, JLabel resultado) {
+		
+		this.primeiro = primeiro;
+		this.segundo = segundo;
+		this.resultado = resultado;
+		
+	}
+
+}

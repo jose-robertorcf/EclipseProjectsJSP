@@ -1,0 +1,17 @@
+package br.com.threads;
+
+public class ThreadByThreads extends Thread {
+
+	public void run() {
+		System.out.println("Realizando herança com a classe Thread!");
+	}
+	
+	public static void main (String[] args) {
+		
+		ThreadByThreads t1 = new ThreadByThreads();
+		
+		t1.start();
+		
+	}
+	
+}
